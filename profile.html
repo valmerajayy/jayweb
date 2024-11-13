@@ -1,0 +1,137 @@
+<html>
+<head>
+<header style="text-align: center;">
+</head> 
+<body>
+<img src="https://tinypic.host/images/2024/11/10/IMG_20240927_180938_019.jpg" alt="Profile Picture" class="profile-image">
+<style>
+      body { 
+        font-family: Arial, sans-serif;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVEBJY9DpC-i97LzRvM-6W64OsapBAGw9oMw&s');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+      
+        .nav-menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: inline-flex;
+            gap: 50px;
+        }
+
+        .nav-menu li {
+            display: inline;
+        }
+
+        .nav-menu a {
+            background-color: maroon;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 2.2rem;
+            border-radius: 7px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .profile-image {
+            width: 700px;
+            height: 800px;
+            border-radius: 50%;
+            border: 10px solid black;
+            
+        }
+
+        .nav-menu a:hover {
+            background-color: #299de6;
+            text-decoration: underline;
+        }
+        
+        .profile-info {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            
+        }
+
+        .profile-info h2 {
+            color: white;
+            font-size: 5.8rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .info-item {
+            margin: 10px 0;
+            font-size: 3.2rem;
+            color: white;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: white;
+        }
+
+        .info-value {
+            color: white;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        /* Video Styling */
+        .video-background video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100vw;
+            min-height: 100vh;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            object-fit: cover; /* Ensures the video covers the screen */
+        }
+    </style>
+</head>
+<body>
+<div class="profile-info">
+    <h2>Profile Information</h2>
+    <div class="info-item">
+        <span class="info-label">Name:</span>
+        <span class="info-value">Arjay Valmera</span>
+    </div>
+    <div class="info-item">
+        <span class="info-label">Age:</span>
+        <span class="info-item">19</span>
+    </div>
+    <div class="info-item">
+        <span class="info-label">Grade:</span>
+        <span class="info-item">11</span>
+    </div>
+    <div class="info-item">
+        <span class="info-label">Strand:</span>
+        <span class="info-value">ICT</span>
+    </div>
+    <div class="info-item">
+        <span class="info-label">School:</span>
+        <span class="info-value">Antipolo City Senior High School</span>
+    </div>
+</div>
+<div class="video-background">
+        <video autoplay muted loop>
+            <source src="fire.mp4" type="video/mp4">
+        </video>
+</div>
+</body>
+</html>
