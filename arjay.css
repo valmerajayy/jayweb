@@ -1,0 +1,56 @@
+     body {
+       font-family: Arial, sans-serif;
+       background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVEBJY9DpC-i97LzRvM-6W64OsapBAGw9oMw&s');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+       }
+       .nav-menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: inline-flex;
+            gap: 50px;
+        }
+      
+        .nav-menu li {
+            display: inline;
+        }
+
+        .nav-menu a {
+            background-color: maroon;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 2.2rem;
+            border-radius: 7px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .profile-image {
+            width: 700px;
+            height: 900px;
+            border-radius: 50%;
+            border: 10px solid black;
+        }
+
+        .nav-menu a:hover {
+            background-color: #299de6;
+            text-decoration: underline;
+        {
+        
+        .header {
+            position: center;  
+            center: 0;            
+            right: 0;              
+            width: 100%;          
+            color: black;         
+            text-align: center; 
+            padding: 10px 0;      
+            
+        }
+        
+        
